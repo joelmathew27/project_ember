@@ -60,6 +60,7 @@ func play_anim(_delta):
 		$AnimatedSprite2D.flip_h = true
 	elif velocity.x > 0:
 		$AnimatedSprite2D.flip_h = false
+	# faster animation speed when 'sprinting'
 	if abs(velocity.x) > 100 || abs(velocity.y) > 100:
 		$AnimatedSprite2D.speed_scale = 2
 	else:
