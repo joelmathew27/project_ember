@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g6s1kde12j8e"
-path="res://.godot/imported/grass_tile.png-8af6e569014387b022183186b96d7254.ctex"
+uid="uid://brv5kto4jdwpi"
+path="res://.godot/imported/test_battle_obstacles.png-1a44c36f2421be32c92070d7c6a39b0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://entities/tiles/grass_tile.png"
-dest_files=["res://.godot/imported/grass_tile.png-8af6e569014387b022183186b96d7254.ctex"]
+source_file="res://entities/battle_tiles/test_battle_obstacles.png"
+dest_files=["res://.godot/imported/test_battle_obstacles.png-1a44c36f2421be32c92070d7c6a39b0b.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxi6rooui66a8"
-path="res://.godot/imported/ember_tiles_dualgrid.png-b8d6fad14c0d672fb6f1202320fbe42d.ctex"
+uid="uid://bht1tkpt26dlo"
+path="res://.godot/imported/grass_tiles_full.png-5cc9f8189fea1047365e7a4b0ead62f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://entities/tiles/ember_tiles_dualgrid.png"
-dest_files=["res://.godot/imported/ember_tiles_dualgrid.png-b8d6fad14c0d672fb6f1202320fbe42d.ctex"]
+source_file="res://entities/world_tiles/grass_tiles_full.png"
+dest_files=["res://.godot/imported/grass_tiles_full.png-5cc9f8189fea1047365e7a4b0ead62f6.ctex"]
 
 [params]
 

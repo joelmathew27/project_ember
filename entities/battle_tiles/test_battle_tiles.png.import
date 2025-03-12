@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqspxhsu21wc"
-path="res://.godot/imported/ember_tiles.png-b0af5bed8f4326c991b7263f62548025.ctex"
+uid="uid://bqdxrr188cbxr"
+path="res://.godot/imported/test_battle_tiles.png-39145577d0fe1b9e8f50ac4080030691.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://entities/tiles/ember_tiles.png"
-dest_files=["res://.godot/imported/ember_tiles.png-b0af5bed8f4326c991b7263f62548025.ctex"]
+source_file="res://entities/battle_tiles/test_battle_tiles.png"
+dest_files=["res://.godot/imported/test_battle_tiles.png-39145577d0fe1b9e8f50ac4080030691.ctex"]
 
 [params]
 

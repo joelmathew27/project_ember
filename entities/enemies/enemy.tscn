@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dso2s5htmhueb"]
+
+[ext_resource type="Script" uid="uid://rsc36lit7b0c" path="res://entities/enemies/enemy.gd" id="1_wqcwe"]
+[ext_resource type="Texture2D" uid="uid://cim7s02h61co1" path="res://entities/battle_tiles/test_battle_entities.png" id="2_5lf1o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_msovg"]
+atlas = ExtResource("2_5lf1o")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_twyc1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_msovg")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_wqcwe")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_twyc1")
+animation = &"new_animation"
