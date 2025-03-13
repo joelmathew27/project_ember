@@ -10,5 +10,6 @@
 visible = false
 
 [node name="Test2dWorld" parent="." instance=ExtResource("2_b1kj2")]
+visible = false
 
 [node name="player_node" parent="Test2dWorld" instance=ExtResource("3_eqpk5")]
