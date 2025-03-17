@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=4 uid="uid://cqjvf2mneb1if"]
 
-[ext_resource type="Texture2D" uid="uid://bqdxrr188cbxr" path="res://entities/battleTiles/test_battle_tiles.png" id="1_vk27r"]
+[ext_resource type="Texture2D" uid="uid://bqdxrr188cbxr" path="res://entities/battle_tiles/test_battle_tiles.png" id="1_vk27r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r00s4"]
 texture = ExtResource("1_vk27r")
