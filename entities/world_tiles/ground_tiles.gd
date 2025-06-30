@@ -20,14 +20,17 @@ func _input(event):
 
 func has_tile(pos):
 	if get_cell_source_id(pos) != -1:
-		print(get_cell_source_id(pos), " - source id")
-		print(get_cell_atlas_coords(pos), " - atlas id")
+		#print(get_cell_source_id(pos), " - source id")
+		#print(get_cell_atlas_coords(pos), " - atlas id")
 		return true
 	else:
-		print(get_cell_source_id(pos), " - source id")
-		print(get_cell_atlas_coords(pos), " - atlas id")
+		#print(get_cell_source_id(pos), " - source id")
+		#print(get_cell_atlas_coords(pos), " - atlas id")
 		return true
 
-
-	
-	
+func snap_to_grid(char_pos):
+	var cell = local_to_map(char_pos)
+	var temp_position = map_to_local(cell)
+	# temp_position.x += rendering_quadrant_size
+	# temp_position.y += rendering_quadrant_size
+	return temp_position 

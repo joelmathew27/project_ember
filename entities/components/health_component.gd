@@ -1,3 +1,5 @@
+class_name HealthComponent
+
 extends Node
 
 # health component deals with health and shield damage logic
@@ -7,6 +9,9 @@ signal died
 
 var health : int
 var shield : int
+
+func _ready():
+	shield = 0
 
 func print_health():
 	print("Health is ", health)

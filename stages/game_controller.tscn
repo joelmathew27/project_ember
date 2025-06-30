@@ -1,18 +1,19 @@
-[gd_scene load_steps=5 format=3 uid="uid://tdglu7k4ndy"]
+[gd_scene load_steps=6 format=3 uid="uid://tdglu7k4ndy"]
 
+[ext_resource type="Script" uid="uid://dy20tm7vcwm85" path="res://stages/game_controller.gd" id="1_2xs15"]
 [ext_resource type="PackedScene" uid="uid://chwu41t0v1bht" path="res://stages/free_world_2d.tscn" id="1_g7ekq"]
 [ext_resource type="PackedScene" uid="uid://drsgn7v72i8p5" path="res://stages/test_2d_world.tscn" id="2_b1kj2"]
-[ext_resource type="PackedScene" uid="uid://5785pmdkromo" path="res://entities/player/player_node.tscn" id="3_eqpk5"]
+[ext_resource type="PackedScene" uid="uid://5785pmdkromo" path="res://entities/player_and_supp/player_node.tscn" id="3_eqpk5"]
 [ext_resource type="PackedScene" uid="uid://cqjvf2mneb1if" path="res://stages/test_battle_scene.tscn" id="4_d2nfr"]
 
 [node name="GameController" type="Node2D"]
+script = ExtResource("1_2xs15")
 
 [node name="FreeWorld2D" parent="." instance=ExtResource("1_g7ekq")]
-visible = false
 
 [node name="Test2dWorld" parent="." instance=ExtResource("2_b1kj2")]
-visible = false
 
 [node name="player_node" parent="Test2dWorld" instance=ExtResource("3_eqpk5")]
 
 [node name="BattleScene" parent="." instance=ExtResource("4_d2nfr")]
+visible = false
