@@ -12,8 +12,9 @@ script = ExtResource("1_2xs15")
 [node name="FreeWorld2D" parent="." instance=ExtResource("1_g7ekq")]
 
 [node name="Test2dWorld" parent="." instance=ExtResource("2_b1kj2")]
+visible = false
 
 [node name="player_node" parent="Test2dWorld" instance=ExtResource("3_eqpk5")]
 
 [node name="BattleScene" parent="." instance=ExtResource("4_d2nfr")]
-visible = false
+position = Vector2(-10, -13)
